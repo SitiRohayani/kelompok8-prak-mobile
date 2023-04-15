@@ -1,0 +1,12 @@
+com.example.pertemuan_v.app-jetified-window-java-1.0.0-beta04-0 C:\Users\Lenovo\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.pertemuan_v.app-core-1.6.0-1 C:\Users\Lenovo\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.example.pertemuan_v.app-jetified-annotation-experimental-1.1.0-2 C:\Users\Lenovo\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.pertemuan_v.app-jetified-window-1.0.0-beta04-3 C:\Users\Lenovo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.pertemuan_v.app-debug-4 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\android\app\src\debug\res
+com.example.pertemuan_v.app-main-5 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\android\app\src\main\res
+com.example.pertemuan_v.app-pngs-6 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\build\app\generated\res\pngs\debug
+com.example.pertemuan_v.app-resValues-7 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\build\app\generated\res\resValues\debug
+com.example.pertemuan_v.app-rs-8 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\build\app\generated\res\rs\debug
+com.example.pertemuan_v.app-mergeDebugResources-9 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.pertemuan_v.app-mergeDebugResources-10 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.pertemuan_v.app-merged_res-11 C:\Users\Lenovo\OneDrive\Documents\pertemuan-v-ii\build\app\intermediates\merged_res\debug
