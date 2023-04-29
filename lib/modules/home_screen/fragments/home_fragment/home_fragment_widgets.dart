@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:pertemuan_v/configs/app_routes.dart';
+import 'package:pertemuan_v/models/news.dart';
 
 import '../../../../models/user.dart';
 
@@ -25,18 +26,16 @@ class HomeFragmentWidget {
 
   static hotestNewsCard(
     Size size,
-    String pictureUrl,
-    String newsTitle,
+    News news,
   ) {
     return HotestNewsCard(
       size: size,
-      pictureUrl: pictureUrl,
-      newsTitle: newsTitle,
+      news: news,
     );
   }
 
-  static latestNewsCard(Size size, int i) {
-    return LatestNewsCard(size: size, i: i);
+  static latestNewsCard(Size size,News news) {
+    return LatestNewsCard(size: size, news: news);
   }
 
   static latestNewsSection(Size size) {
@@ -144,57 +143,50 @@ class HotestNewsCard extends StatelessWidget {
   const HotestNewsCard({
     super.key,
     required this.size,
-    required this.pictureUrl,
-    required this.newsTitle,
+    required this.news,
   });
 
   final Size size;
-  final String pictureUrl;
-  final String newsTitle;
+  final News news;
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(
-            16,
-          ),
-          child: AspectRatio(
-            aspectRatio: 16 / 9,
-            child: Image.network(
-              pictureUrl,
-              fit: BoxFit.cover,
-            ),
-          ),
+    return GestureDetector(
+      onTap: () {
+        GoRouter.of(context).goNamed(
+          AppRoutes.newsDetail,
+          params: {
+            "id": news.id.toString(),
+          },
+          extra: news,
+        );
+      },
+      child: Container(
+        height: size.height * 0.25,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+              image: NetworkImage(news.banner), fit: BoxFit.cover),
+          borderRadius: const BorderRadius.all(Radius.circular(20)),
         ),
-        Positioned(
-          bottom: 0,
+        child: Align(
+          alignment: Alignment.bottomCenter,
           child: Container(
-            height: 50,
-            width: size.width - 32,
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.5),
-              borderRadius: const BorderRadius.only(
-                bottomLeft: Radius.circular(16),
-                bottomRight: Radius.circular(16),
+              color: Colors.black54,
+              borderRadius: BorderRadius.circular(20)
+            ),
+            child: ListTile(
+              title: Text(
+                news.title,
+                style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
               ),
+              textColor: Colors.white,
             ),
           ),
         ),
-        Positioned(
-          bottom: 16,
-          right: 16,
-          child: Text(
-            newsTitle,
-            style: const TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.bold,
-              color: Colors.black,
-            ),
-          ),
-        ),
-      ],
+      ),
     );
   }
 }
@@ -203,11 +195,11 @@ class LatestNewsCard extends StatelessWidget {
   const LatestNewsCard({
     super.key,
     required this.size,
-    required this.i,
+    required this.news,
   });
 
   final Size size;
-  final int i;
+  final News news;
 
   @override
   Widget build(BuildContext context) {
@@ -231,8 +223,9 @@ class LatestNewsCard extends StatelessWidget {
               GoRouter.of(context).goNamed(
                 AppRoutes.newsDetail,
                 params: {
-                  "id": i.toString(),
+                  "id": news.id.toString(),
                 },
+                extra: news,
               );
             },
             child: Row(
@@ -247,7 +240,7 @@ class LatestNewsCard extends StatelessWidget {
                     child: AspectRatio(
                       aspectRatio: 1 / 1,
                       child: Image.network(
-                        "https://picsum.photos/200",
+                        news.banner
                       ),
                     ),
                   ),
@@ -256,7 +249,7 @@ class LatestNewsCard extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
-                      "${i + 1}. Laboris fugiat eiusmod consequat aliqua eiusmod.",
+                      news.title
                     ),
                   ),
                 ),
@@ -284,13 +277,7 @@ class LatestNewsSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        for (int i = 0; i < 10; i++)
-          LatestNewsCard(
-            size: size,
-            i: i,
-          ),
-      ],
+      children: newsList.map((e) => LatestNewsCard(size: size, news: e)).toList()
     );
   }
 }

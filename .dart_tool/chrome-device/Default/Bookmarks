@@ -1,0 +1,80 @@
+{
+   "checksum": "1b9023ed52f6a9d930dbf7ac23eee189",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13316629500057593",
+            "date_last_used": "0",
+            "guid": "d7d5b132-6bb0-4690-89e7-c32e17d1a5f4",
+            "id": "13",
+            "name": "System Requirement - Membangun Toko Online Menggunakan Laravel | Fadlur Rohman",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://fadlur.com/kelas/membangun-toko-online-menggunakan-laravel/tutorial/system-requirement"
+         }, {
+            "date_added": "13327254308636910",
+            "date_last_used": "0",
+            "guid": "f14150d9-7672-4a45-b978-f60cee23adb9",
+            "id": "8",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/"
+         }, {
+            "date_added": "13327254308636551",
+            "date_last_used": "0",
+            "guid": "d5f53bfc-d570-46d9-bbac-b7c674358225",
+            "id": "7",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/"
+         }, {
+            "date_added": "13327254308631758",
+            "date_last_used": "0",
+            "guid": "ff9c3149-81b9-413b-b6c6-b10c79b91bbe",
+            "id": "6",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=247829"
+         } ],
+         "date_added": "13327254308006751",
+         "date_last_used": "0",
+         "date_modified": "13327256245814994",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13327254308006758",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13327254308006759",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCMyPFEGHAQAAKg4QABgBIAAoBjAAOABAABIAIAEqGHBTRGsxeGF2bEpmdHZPbGdJS1BOL3c9PaAGDBKnAQgNEqIBChxOTmFpQkRoRmdsVk8xaWlrQ0RLTTVTQUR5NEk9EiRkN2Q1YjEzMi02YmIwLTQ2OTAtODllNy1jMzJlMTdkMWE1ZjQYACAAKAAwy5/SiPQwOOif0oj0MEDon9KI9DBKHCtWTHpPaXBFQWN1QVMvaUQvWFlmdFpCeTJBaz1aHiIcd3UyVENzUDA0RjJqY1dRQ3l3ak9nQnE3ci80PWUAAAAAEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDVmZTJiYmQzLWUxMzMtNWRmOS05MDgwLWVmM2JjODA4YTcxMBgAIAAoADDv1cqDwDA44NnKg8AwQODZyoPAMEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNWNkODA3NDEtYmY5Ny01NTViLWJmODUtYjJmNjg2MjUyN2RlGAAgACgAMO/VyoPAMDiO2sqDwDBAjtrKg8AwShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ5YTc3NDk2Zi1lNTk0LTUzM2UtYmYwOS02YmQyZTcxZTk4NjAYACAAKAAw79XKg8AwOKvbyoPAMECr28qDwDBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAMAA4AA==",
+   "version": 1
+}

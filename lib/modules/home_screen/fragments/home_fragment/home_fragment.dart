@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pertemuan_v/models/news.dart';
 import 'package:pertemuan_v/models/user.dart';
 import 'package:pertemuan_v/modules/home_screen/fragments/home_fragment/home_fragment_widgets.dart';
 
@@ -72,8 +73,7 @@ class _HomeFragmentState extends State<HomeFragment> {
                     ),
                     child: HomeFragmentWidget.hotestNewsCard(
                       size,
-                      "https://picsum.photos/1080/690",
-                      "Lebaran Sebentar Lagi",
+                      newsList[0]
                     ),
                   ),
                   const SizedBox(
