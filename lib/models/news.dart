@@ -36,8 +36,8 @@ var newsList = [
       desc:
           "Makassar - Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) melalui Kantor Wilayah Pusat Gempa Regional (PGR) IV Makassar mencatat total 2.862 kali gempa bumi mengguncang wilayah Sulawesi Selatan (Sulsel), Sulawesi Barat (Sulbar), Sulawesi Tengah (Sulteng), hingga Sulawesi Tenggara (Sultra) sepanjang tahun 2022. Hal itu disampaikan PGR IV Makassar dalam keterangan resminya yang diterima detikSulsel Rabu (4/1/2022). PGR IV Makassar memiliki wilayah kerja mulai dari Sulsel, Sulbar, Sulteng, hingga Sultra. PGR IV Makassar dalam laporannya tersebut menyebutkan 2.862 gempa tersebut terdiri dari dari 2.613 gempa bumi dangkal kurang dari kedalaman 60 km, 237 gempa bumi menengah yang terjadi di kedalaman 60 hingga 300 km, dan 12 kali gempa bumi dalam yang terjadi di kedalaman lebih dan sama dengan 300 kilometer."),
   News(
-      id: 002,
-      likeCount: 10000000,
+      id: 003,
+      likeCount: 100,
       title:
           "3 Pemain Timnas Argentina U-20 yang Tampil Gacor di Piala Dunia U-20 2023: Wajar Lolos Duluan Ke-16 Besar",
       author: "Rasmilawanti Rustam",
